@@ -69,6 +69,7 @@ def add_predictions(input_data):
     st.subheader("Math Score Prediction🧠")
     st.write(f"Predicted Score: {predictions[0]:.2f}")
     
+    
     if predictions[0] > 15:
         st.write("Hurrah! You have passed the exam✨")
     else:
